@@ -1,0 +1,11 @@
+.card-dashboard {
+    max-width: 350px;
+    height: 400px;
+    padding: 40px;
+    align-content: center;
+}
+  
+.card-image {
+  height: 150px;
+  width: 300px;
+}

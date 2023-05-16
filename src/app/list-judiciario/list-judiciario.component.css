@@ -1,0 +1,11 @@
+.list-judiciario {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: auto; 
+}
+
+.item-judiciario {
+  padding: 10px;
+}
+  

@@ -1,0 +1,11 @@
+.list-eleitoral {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: auto;
+}
+
+.item-eleitoral {
+  padding: 10px;
+}
+  

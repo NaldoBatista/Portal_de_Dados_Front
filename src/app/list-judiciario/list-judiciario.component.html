@@ -1,0 +1,9 @@
+<mat-list role="list" class="list-judiciario">
+    <span>Judiciário</span>
+        <div class="item-judiciario"
+        style="height: auto; max-width: auto;"
+        *ngFor="let dashboard of dashboards">
+            <app-card-dashboard [dashboard]="dashboard"></app-card-dashboard>
+        </div>
+
+</mat-list>
