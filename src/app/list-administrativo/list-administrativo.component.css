@@ -1,0 +1,10 @@
+.list-administrativo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: auto;
+}
+
+.item-administrativo {
+  padding: 10px;
+}
