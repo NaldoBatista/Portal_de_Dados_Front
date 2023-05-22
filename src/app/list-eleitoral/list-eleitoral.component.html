@@ -1,9 +1,16 @@
 <mat-list role="list" class="list-eleitoral">
-    <span>Eleitoral</span>
-        <div class="item-eleitoral"
-        style="height: auto; max-width: auto;"
-        *ngFor="let dashboard of dashboards">
-            <app-card-dashboard [dashboard]="dashboard"></app-card-dashboard>
-        </div>
-
+    <div class="header">
+        <span>
+            <h1>Eleitoral</h1> 
+            <button (click)="onMostrarTodosClick()"
+            mat-raised-button color="basic">{{ textoBotao }}</button>
+        </span>
+    </div>
+    <div class="content">
+        <ng-container *ngFor="let dashboard of dashboards; let i=index">
+            <ng-container *ngIf="mostrarTodos || i < 4 ">
+                <app-card-dashboard [dashboard]="dashboard"></app-card-dashboard>
+            </ng-container>
+        </ng-container>
+    </div>
 </mat-list>

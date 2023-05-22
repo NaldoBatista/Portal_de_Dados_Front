@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 import { CardDashboardComponent } from './shared/card-dashboard/card-dashboard.component';
 import { ListAdministrativoComponent } from './list-administrativo/list-administrativo.component';
 
@@ -29,7 +30,8 @@ import { ListAdministrativoComponent } from './list-administrativo/list-administ
     BrowserAnimationsModule,
     MatToolbarModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
