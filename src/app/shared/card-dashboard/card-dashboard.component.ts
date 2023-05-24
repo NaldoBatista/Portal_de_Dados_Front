@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Dashboard } from '../dashboard.model';
 
 @Component({
   selector: 'app-card-dashboard',
@@ -6,5 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./card-dashboard.component.css']
 })
 export class CardDashboardComponent {
-  @Input() dashboard: any;
+  @Input() dashboard: Dashboard;
 }

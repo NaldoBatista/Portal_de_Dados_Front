@@ -1,12 +1,23 @@
 .card-dashboard {
-    max-width: 250px;
+    max-width: 270px;
     height: 330px;
     padding: 10px;
     align-content: center;
     margin: 10px;
+    transition: transform 0.3s
+}
+
+.card-dashboard:hover {
+  transform: scale(1.1);
 }
   
 .card-image {
+  margin-top: 7px;
   height: 150px;
   width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
 }

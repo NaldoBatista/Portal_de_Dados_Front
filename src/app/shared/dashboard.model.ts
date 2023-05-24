@@ -1,11 +1,7 @@
-export class Dashboard {
+export interface Dashboard {
     title: string;
     description: string;
     imagePath: string;
-
-    constructor(title: string, description: string, imagePath: string) {
-        this.title = title;
-        this.description = description;
-        this.imagePath = imagePath;
-    }
+    link: string;
+    domain: string
 }

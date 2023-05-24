@@ -1,12 +1,14 @@
 <mat-card class="card-dashboard">
+  <a class="link" [href]="dashboard.link" target="_blank">
     <mat-card-header>
-      <mat-card-title>{{dashboard.title}}</mat-card-title>
+      <mat-card-title style="font-size: 16px;">{{dashboard.title}}</mat-card-title>
     </mat-card-header>
     <img mat-card-image class="card-image" src="{{dashboard.imagePath}}" alt="" >
-    <hr>
+    <hr style="background-color: black;">
     <mat-card-content>
       <p>
         {{dashboard.description}}
       </p>
     </mat-card-content>
+  </a>
 </mat-card>
